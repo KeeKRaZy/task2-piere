@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="shortcut icon" href="img/x-icon.ico" type="image/x-icon">
+    <title>Example Page Structure</title>
+</head>
+<body>
+    <header>
+        <img id="union" src="assets/img/Union.svg">
+        <nav>
+            <a href="#"><img id="logo" src="assets/img/logo.jpg"></a>
+            <ul>
+                <li><a href="#">Ideja</a></li>
+                <li><a href="#">Piesaki Sapni</a></li>
+                <li><a href="#">Uzņēmējiem</a></li>
+                <li><a href="#">Sapņu banka</a></li>
+                <li><a href="#">Sapņus atbalsta</a></li>
+                <li><a href="#">99 Iedvesmas stāsti</a></li>
+            </ul>
+            <a class="changeLanguage" href="#" onmouseover="Languages();">LV</a>
+            <a class="showMenu" href="#" onclick="Menu();">✖</a>
+        </nav>
+    </header>
+    <main>
+        <div class="video">
+            <img id="sparkleVideo" src="assets/img/sparkleVideo.jpg">
+            <a href="#"><img id="playButton" src="assets/img/play.jpg"></a>
+        </div>
+        <div class="mainText">
+            <p id="intro">SparkleHeart ir biedrība, kas radīta, lai palīdzētu cilvēkiem piepildīt pat pārdrošākos sapņus. Šeit satiekas sapņotāji un viņu atbalstītāji - uzņēmumi, kas sniedz palīdzīgu roku, lai kopā pasauli padarītu par labāku vietu mums visiem.Mēs esam gatavi palīdzēt Tev piepildīt sapni. Kā pamats iedvesmai - tiek radīti arī 99 stāsti par Latvijas sievietēm.</p>
+        </div>
+        <img id="ripped1" src="assets/img/ripped.svg">
+        <img id="rippedMobile1" src="assets/img/ripped 1 mob.png">
+        <div class="photos">
+            <img id='img1' src="assets/img/Zanda_1.jpg"><img id='img2' src="assets/img/Sibilla_4.jpg"><img id='img3' src="assets/img/Brinuma_meita-15.jpg"><img id='img4' src="assets/img/Alina_1 1.jpg"><img id='img5' src="assets/img/Anda_2 1.jpg">
+            <img id="ripped2" src="assets/img/ripped 6 8.svg">
+            <img id="rippedMobile2" src="assets/img/ripped 2 mob.png">
+        </div>
+        <div class="contactUs">
+            <h2>VĒLIES PIEPILDĪT SAVU SAPNI?<br><a href="#" class="button">Sapņotājiem</a></h2>
+            <h2 id="secondChoice">VĒLIES PALĪDZĒT KĀDĀM PIEPILDĪT SAPNI?<br><a href="#" class="button">Uzņēmējiem</a></h2>
+        </div>
+        <p id="topic">SAZINĀTIES AR MUMS</p>
+        <div class="contactForm">
+            <form action="#"> 
+                <input type="text" name="name" required placeholder="Vārds, Uzvārds*"><input type="email" name="email" id="mail" required placeholder="E-pasts*"><br>
+                <input type="text" id="phone" name="phone" required placeholder="Telefons*"><br>
+                <input type="text" id="comm" name="comm" required placeholder="Jautājums, vai komentārs*">
+                <p>* obligāti aizpildāmie lauki</p>
+                <label class="checkbox">
+                    <input type="checkbox" onclick="" required>
+                    <span id="checkbox"></span>
+                    <span id="checktext">Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks saglabāti līdz brīdim, kamēr tas būs nepieciešams.</span>
+                </label><br>
+                <input type="submit" name="submit" id="send" value="Sūtīt">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="yellowPart">
+            <h2 id="imgTopic">ATBALSTĪTĀJI</h2>
+            <div class="sponsors">
+                <img src="assets/img/teikums.svg"><img src="assets/img/sem.svg"><img src="assets/img/Citybee.svg"><img src="assets/img/linearis.png">
+            </div>
+            <img id="yellowPart" src="assets/img/Union.png">
+            <img id="yellowPartMobile" src="assets/img/Mobile footer yellow.svg">
+        </div>
+        <div class="bluePart">
+            <img id="logo2" src="assets/img/logo2.png">
+            <div>
+                <ul>
+                    <li><a href="#">Ideja</a></li>
+                    <li><a href="#">Piesaki Sapni</a></li>
+                    <li><a href="#">Uzņēmējiem</a></li>
+                    <li><a href="#">Sapņu banka</a></li>
+                    <li><a href="#">Sapņus atbalsta</a></li>
+                    <li><a href="#">Iedvesmas stāsti</a></li>
+                </ul>
+            </div>
+            <div class="bankasKonts">
+                <h3>Biedrība SparkleHeart</h3>
+                <p>Reģistrācijas nr. 40008293119</p>
+                <p>Banka: SWEDBANK A/S</p>
+                <p>LV52HABA0551047652465</p>
+            </div>
+            <div class="contacts">
+                <h3>Juris Gogulis</h3>
+                <p>juris.gogulis@sparkleheart.org</p>
+                <p>+37126890034</p>
+                <p>Biķernieku iela 24a - 5, LV-1006</p>
+                <p><a id="rekvizits" href="#">Skatīt rekvizītus</a></p>
+                <a href="#"><img id="facebook" src="assets/img/f.svg"></a>
+                <a href="#"><img src="assets/img/inst.svg"></a>
+            </div>
+            <div class="foot">
+                <p id="rule">© SparkleHeart 2020. Visas tiesības aizsargātas.</p>
+                <a href="#"><p id="rightfoot">Privātuma politika</p></a>
+            </div>
+            <img id="bluePartMobile" src="assets/img/Mobile footer.svg">
+        </div>
+    </footer>
+    <script src="assets/js/theme.js"></script>
+</body>
+</html>
+
